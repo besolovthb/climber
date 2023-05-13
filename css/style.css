@@ -12,8 +12,26 @@ body {
 }
 
 .mount {
-  width: 100%;
-  height: 100%;
+  width: 70%;
+  height: 70%;
+  position: fixed;
+  bottom: 100px;
+  right: 200px;
+}
+
+#climber {
+  height: 20%;
+  position: relative;
+  top: 660px;
+  z-index: 2;
+}
+
+#win {
+  height: 20%;
+  position: relative;
+  bottom: 100px;
+  left: 850px;
+  visibility: hidden;
 }
 
 pre{
@@ -25,41 +43,49 @@ pre{
 
 #een {
   position: relative;
-  top: 620px;
+  top: 540px;
+  z-index: 1;
 }
 
 #twee {
   position: relative;
   right: -150px;
   top: 450px;
+  z-index: 1;
 }
 
 #drie {
   position: relative;
-  right: -300px;
+  right: -250px;
   top: 280px;
+  z-index: 1;
 }
 
 #vier {
   position: relative;
   right: -450px;
-  top: 110px;
+  top: 50px;
+  z-index: 1;
 }
 
 #vijf {
   position: relative;
   right: -600px;
-  top: 280px;
+  top: -40px;
+  z-index: 1;
 }
 
 #zes {
   position: relative;
   right: -750px;
   top: 150px;
+  z-index: 1;
 }
 
 #zeven {
   position: relative;
-  right: -820px;
-  top: 20px;
+  right: -950px;
+  top: -180px;
+  z-index: 1;
 }
+

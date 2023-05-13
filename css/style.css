@@ -14,6 +14,7 @@ body {
 .mount {
   width: 100%;
   height: 100%;
+  position: fixed;
 }
 
 pre{
@@ -21,4 +22,8 @@ pre{
   max-height: 5px;
   background-color: red;
   margin-bottom: 5px;
+  position: relative;
+  top: 20px; right: 20px; 
 }
+
+

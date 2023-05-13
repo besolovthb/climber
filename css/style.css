@@ -14,7 +14,6 @@ body {
 .mount {
   width: 100%;
   height: 100%;
-  position: fixed;
 }
 
 pre{
@@ -22,8 +21,45 @@ pre{
   max-height: 5px;
   background-color: red;
   margin-bottom: 5px;
-  position: relative;
-  top: 20px; right: 20px; 
 }
 
+#een {
+  position: relative;
+  top: 620px;
+}
 
+#twee {
+  position: relative;
+  right: -150px;
+  top: 450px;
+}
+
+#drie {
+  position: relative;
+  right: -300px;
+  top: 280px;
+}
+
+#vier {
+  position: relative;
+  right: -450px;
+  top: 110px;
+}
+
+#vijf {
+  position: relative;
+  right: -600px;
+  top: 280px;
+}
+
+#zes {
+  position: relative;
+  right: -750px;
+  top: 150px;
+}
+
+#zeven {
+  position: relative;
+  right: -820px;
+  top: 20px;
+}

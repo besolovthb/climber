@@ -22,7 +22,6 @@ body {
 #climber {
   height: 20%;
   position: relative;
-  top: 660px;
   z-index: 2;
 }
 
@@ -43,6 +42,7 @@ pre{
 
 #een {
   position: relative;
+  right: 0px;
   top: 540px;
   z-index: 1;
 }

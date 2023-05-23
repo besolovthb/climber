@@ -8,8 +8,6 @@ klimmer.style.top = "660px";
 
 const positionArray = [['0px','660px'], ['-150px', '580px'], ['-250px', '420px'], ['-450px', '200px'], ['-600px', '120px'], ['-750px', '320px'], ['-950px', '0px']];
 
-console.log('Hello from index.js')
-
 addEventListener('keyup', (e) => {
     if (e.key == "d" ) {
     let right = klimmer.style.right;
